@@ -1,0 +1,10 @@
+/Users/sreevarshmaheshgandhi/Downloads/FAKE NEWS DETECTiON - MODEL COMPARISON/flask_api.py:128: SyntaxWarning: invalid escape sequence '\['
+  text = re.sub('\[.*?\]', '', text)
+/Users/sreevarshmaheshgandhi/Downloads/FAKE NEWS DETECTiON - MODEL COMPARISON/flask_api.py:130: SyntaxWarning: invalid escape sequence '\S'
+  text = re.sub('https?://\S+|www\.\S+', '', text)
+/Users/sreevarshmaheshgandhi/Downloads/FAKE NEWS DETECTiON - MODEL COMPARISON/flask_api.py:134: SyntaxWarning: invalid escape sequence '\w'
+  text = re.sub('\w*\d\w*', '', text)
+Traceback (most recent call last):
+  File "/Users/sreevarshmaheshgandhi/Downloads/FAKE NEWS DETECTiON - MODEL COMPARISON/flask_api.py", line 2, in <module>
+    from flask_cors import CORS
+ModuleNotFoundError: No module named 'flask_cors'
