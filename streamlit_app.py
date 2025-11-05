@@ -39,7 +39,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.markdown('<h1 class="main-header">📊 Fake News Detection - Model Comparison Dashboard</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🏅 ML Olympics - Fake News Detection</h1>', unsafe_allow_html=True)
 st.markdown("---")
 
 # Sidebar for model selection
